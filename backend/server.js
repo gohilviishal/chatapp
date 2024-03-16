@@ -48,7 +48,7 @@ const server = app.listen(PORT, () => {
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://ituthread.onrender.com",
   },
   pingTimeout: 60000,
 });
