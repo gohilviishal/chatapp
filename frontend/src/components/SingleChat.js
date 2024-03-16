@@ -19,7 +19,7 @@ import ProfileModal from "./miscellaneous/ProfileModal";
 import UpdateGroupChatModel from "./miscellaneous/UpdateGroupChatModel";
 import ScrollableChats from "./ScrollableChats";
 import io from "socket.io-client";
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://ituthread.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
